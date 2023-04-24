@@ -18,7 +18,7 @@ public class Car {
         this.brand = carBuilder.brand;
         this.model = carBuilder.model;
         this.year = carBuilder.year;
-        this.towbar = carBuilder.towbar;
+        this.towbar = carBuilder.towBar;
         this.sunRoof = carBuilder.sunRoof;
         this.skiRack = carBuilder.skiRack;
     }
@@ -32,7 +32,7 @@ public class Car {
         private String brand;
         private String model;
         private String year;
-        private String towbar;
+        private String towBar;
         private String sunRoof;
         private String skiRack;
 
@@ -49,7 +49,7 @@ public class Car {
             return this;
         }
         public CarBuilder towbar(String towbar) {
-            this.towbar = towbar;
+            this.towBar = towbar;
             return this;
         }
         public CarBuilder sunRoof(String sunRoof) {

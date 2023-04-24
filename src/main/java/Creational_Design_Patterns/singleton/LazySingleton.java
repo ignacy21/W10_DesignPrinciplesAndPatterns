@@ -1,16 +1,8 @@
 package Creational_Design_Patterns.singleton;
 
-public class LazySingleton {
+public final class LazySingleton {
 
     private static LazySingleton LAZY_SINGLETON;
-
-//    static {
-//        try {
-//            LAZY_SINGLETON = new LazySingleton();
-//        } catch (Exception e) {
-//            throw new RuntimeException("Fail during initializing LAZY_SINGLETON");
-//        }
-//    }
 
     private LazySingleton() {
         System.out.println("Calling constructor");

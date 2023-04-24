@@ -8,7 +8,8 @@ import java.util.List;
 public class PizzaBakerProxy implements PizzaBaker {
 
     private final PizzaBaker pizzaBaker;
-    public static final List<String> DENIED_PIZZA = List.of("Hawaiian");
+    private static final List<String> DENIED_PIZZA = List.of("Hawaiian");
+
 
     @Override
     public void bake(String pizza) {

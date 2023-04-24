@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.jsoup:jsoup:1.14.3'
+
     implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.11'
 
     compileOnly 'org.projectlombok:lombok:1.18.24'
